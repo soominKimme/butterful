@@ -1,0 +1,168 @@
+
+body {
+  font-family: "Montagu Slab";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montagu Slab";
+  font-weight: bold;
+}
+
+p {
+  color: #787A91;
+}
+
+
+/* Headings */
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 10%
+}
+
+
+/* Sections */
+
+.coloured-section {
+  background-color: #FFAB73;
+  color: #FFF;
+}
+
+.white-section {
+  background-color: #FFF;
+}
+
+
+/* Navigation Bar */
+
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+
+/* Buttons */
+
+.btn {
+  margin: 3% 3% 0;
+}
+
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 1% 10% 1%;
+}
+
+
+/* Title Image */
+
+.bg-image {
+  background-size: 100%;
+  padding: 20%;
+  background-image: url("../images/title-croissant.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+/* About Section */
+
+.about-image {
+  width: 100%;
+  padding: 13% 3% 10% 3%;
+  border-radius: 20%;
+}
+
+
+/* testimonials Section */
+
+#testimonials p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.testimonials-image {
+  width: 80%;
+  padding: 5% 3%;
+  border-radius : 20%;
+}
+
+/* Menu Section */
+.menu-image {
+  width: 50%;
+  padding: 3% 0 5% 0;
+  border-radius: 20%;
+}
+
+.menu-column {
+  padding: 3% 2%;
+}
+
+
+/* Contact Section */
+
+.icon {
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #FF4C68;
+}
+
+.contact-box {
+  padding: 3%;
+}
+
+
+/* CTA Section */
+
+#cta .container-fluid {
+  padding: 3%;
+}
+
+#cta p{
+  color: #FFF;
+  font-size: 1.5rem;
+}
+
+.social-icon {
+  padding: 2%;
+  color: #FFF;
+}
+
+.social-icon:hover {
+  color: #FF4C68;
+}
+
+
+/* Footer Section */
+
+#footer {
+  padding: 2%;
+}
+
+#footer p{
+  font-size: 1rem;
+}
