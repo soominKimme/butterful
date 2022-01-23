@@ -61,7 +61,7 @@ p {
 }
 
 .navbar-toggler {
-  background-color: #FF4C68;
+  background-color: #694E4E;
 }
 
 
@@ -173,7 +173,6 @@ p {
 }
 
 @media (max-width: 768px) {
-  /* For mobile phones: */
   .nav-item {
     padding: 10%;
   }
