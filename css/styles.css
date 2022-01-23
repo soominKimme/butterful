@@ -171,3 +171,10 @@ p {
 #footer p{
   font-size: 1rem;
 }
+
+@media (max-width: 768px) {
+  /* For mobile phones: */
+  .nav-item {
+    padding: 10%;
+  }
+}
