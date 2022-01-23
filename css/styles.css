@@ -57,7 +57,7 @@ p {
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 
@@ -107,6 +107,7 @@ p {
   padding: 5% 3%;
   border-radius : 20%;
 }
+
 
 /* Menu Section */
 .menu-image {
@@ -165,4 +166,11 @@ p {
 
 #footer p{
   font-size: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
 }
