@@ -1,10 +1,24 @@
 
 :root {
-  --fs-800: clamp(2rem, 7vw, 3rem);
-  --fs-700: clamp(1.5rem, 7vw, 2.5rem);
-  --fs-600: 1.5rem;
+  --fs-800: clamp(2.5rem, 7vw, 5rem);
+  --fs-700: clamp(2.0rem, 7vw, 2.5rem);
+  --fs-600: clamp(1.75rem, 7vw, 2.25rem);
   --fs-500: 1.2rem;
   --fs-400: 1rem;
+}
+
+@media (max-width: 768px){
+  :root {
+    --fs-800: 2.5rem;
+    --fs-700: 2.0rem;
+    --fs-600: 1.7rem;
+    --fs-500: 0.85rem;
+    --fs-400: 0.5rem;
+  }
+
+  /* .container-fluid{ */
+    /* padding: 0; */
+  /* } */
 }
 
 body {
@@ -39,7 +53,7 @@ p {
 /* Containers */
 
 .container-fluid{
-  padding: 7% 10%
+  padding: 7% 10%;
 }
 
 
@@ -114,6 +128,10 @@ p {
   width: 80%;
   padding: 5% 3%;
   border-radius : 20%;
+}
+
+.carousel-item p {
+  font-size: var(--fs-500);
 }
 
 
