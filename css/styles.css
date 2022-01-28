@@ -1,7 +1,7 @@
 
 :root {
   --fs-800: clamp(2rem, 7vw, 3rem);
-  --fs-700: 2.5rem;
+  --fs-700: clamp(1.5rem, 7vw, 2.5rem);
   --fs-600: 1.5rem;
   --fs-500: 1.2rem;
   --fs-400: 1rem;
