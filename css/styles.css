@@ -1,10 +1,10 @@
 
 :root {
-  --fs-800: clamp(2.5rem, 7vw, 5rem);
+  --fs-800: clamp(2.5rem, 7vw, 4.5rem);
   --fs-700: clamp(2.0rem, 7vw, 2.5rem);
-  --fs-600: clamp(1.75rem, 7vw, 2.25rem);
+  --fs-600: clamp(1.5rem, 7vw, 2.25rem);
   --fs-500: 1.2rem;
-  --fs-400: 1rem;
+  --fs-400: 0.5rem;
 }
 
 @media (max-width: 768px){
@@ -15,7 +15,7 @@
     --fs-500: 1.2rem;
     --fs-400: 0.5rem;
   }
-
+}
 
 body {
   font-family: "Montagu Slab";
